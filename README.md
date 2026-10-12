@@ -30,3 +30,7 @@ Type a wattage in a card's Power Cap box and press Apply. Linux asks for authori
 ## LLM readout
 
 The "LLM" and "ctx" lines read tokens per second and context fill from a local llama.cpp-style server found on loopback ports, or from a LiteLLM proxy's `/metrics` endpoint if you enable it. For the LiteLLM route the script reads `master_key` from `~/litellm/config.yaml` on your own machine at runtime. It does not print or store the key. If those sources aren't present, the line shows "n/a".
+
+## License
+
+MIT. See [LICENSE](LICENSE).
