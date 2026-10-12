@@ -1,0 +1,4 @@
+settings.json
+*old.py
+*.bak
+__pycache__/
